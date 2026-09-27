@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Buffet Eventos e Serviços - Enéas Filho</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#D4AF37;--black:#0e0e0e;--white:#fdfaf3}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:var(--white);color:#222}
+h1,h2,h3{font-family:'Playfair Display',serif}
+header{position:sticky;top:0;z-index:100;background:var(--black);display:flex;justify-content:space-between;align-items:center;padding:14px 5%;border-bottom:1px solid rgba(212,175,55,.3)}
+.logo{color:var(--gold);font-weight:700;font-size:22px;letter-spacing:2px;line-height:1.1}
+.logo span{display:block;font-size:10px;letter-spacing:3px;font-weight:300;color:#aaa}
+nav a{color:#ddd;text-decoration:none;margin:0 12px;font-size:14px}
+.btn-gold{background:var(--gold);color:var(--black);padding:10px 22px;border-radius:30px;text-decoration:none;font-weight:700;font-size:14px;display:inline-block}
+.hero{background:linear-gradient(90deg, rgba(0,0,0,.9) 35%, rgba(0,0,0,.4)), url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1600');background-size:cover;background-position:center;color:#fff;padding:90px 5%;display:flex;align-items:center;min-height:75vh}
+.hero h1{font-size:48px;line-height:1.1;color:var(--gold);margin-bottom:14px}
+.hero p{color:#ddd;max-width:520px;margin-bottom:24px;font-weight:300}
+.services{padding:60px 5%;text-align:center}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:36px;text-align:left}
+.card{background:#111;color:#fff;border-radius:12px;overflow:hidden;border:1px solid rgba(212,175,55,.2)}
+.card img{width:100%;height:160px;object-fit:cover}
+.card div{padding:18px}
+.card h3{color:var(--gold);margin-bottom:8px}
+.card p{font-size:13px;color:#bbb;line-height:1.5}
+.gallery{padding:60px 5%;background:#111;color:#fff;text-align:center}
+.grid-gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:30px}
+.testi{background:#fff;color:#222;padding:18px;border-radius:0 0 10px 10px;font-size:13px}
+.stars{color:var(--gold);margin-bottom:6px}
+.cta{padding:70px 5%;text-align:center;background:var(--gold)}
+footer{background:var(--black);color:#aaa;padding:40px 5%;display:grid;grid-template-columns:2fr 1fr 1fr;gap:20px;font-size:13px}
+footer h4{color:var(--gold);margin-bottom:10px}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">ART<br>BUFFET<span>EVENTOS & SERVIÇOS ENÉAS FILHO</span></div>
+<nav><a href="#">INÍCIO</a><a href="#servicos">SERVIÇOS</a><a href="#galeria">GALERIA</a> <a href="https://wa.me/5598984107718?text=Olá%20Enéas!%20Vi%20seu%20site%20e%20quero%20orçamento%20de%20buffet" class="btn-gold">ORÇAMENTO</a></nav>
+</header>
+<section class="hero"><div>
+<h1>CATERING DE LUXO PARA<br>MOMENTOS INESQUECÍVEIS</h1>
+<p>Buffet sofisticado • Churrasco na chapa • Decoração elegante para casamentos, formaturas e eventos corporativos.</p>
+<a href="https://wa.me/5598984107718?text=Olá!%20Vi%20o%20site%20da%20Art%20Buffet%20e%20quero%20um%20orçamento" class="btn-gold">SOLICITE UM ORÇAMENTO →</a>
+</div></section>
+<section class="services" id="servicos">
+<h2>NOSSOS SERVIÇOS</h2>
+<div class="cards">
+<div class="card"><img src="https://images.unsplash.com/photo-1555243896-c709bfa0b564?q=80&w=800"><div><h3>BUFFET</h3><p>Cardápios personalizados. Churrasco na chapa é nosso diferencial.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=800"><div><h3>DECORAÇÕES</h3><p>Decoração completa, floral e ambientação sofisticada.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800"><div><h3>JANTAR</h3><p>Jantar servido à mesa com serviço refinado.</p></div></div>
+</div>
+</section>
+<section class="gallery" id="galeria"><h2>GALERIA</h2>
+<div class="grid-gal">
+<div><img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?q=80&w=600" style="width:100%;height:220px;object-fit:cover;border-radius:10px 10px 0 0"><div class="testi"><div class="stars">★★★★★</div>“O buffet foi impecável!”<br><b>- Cliente Casamento -</b></div></div>
+<div><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=600" style="width:100%;height:220px;object-fit:cover;border-radius:10px 10px 0 0"><div class="testi"><div class="stars">★★★★★</div>“Tudo perfeito, da decoração ao serviço.”<br><b>- Evento Corporativo -</b></div></div>
+<div><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=600" style="width:100%;height:220px;object-fit:cover;border-radius:10px 10px 0 0"><div class="testi"><div class="stars">★★★★★</div>“Equipe excepcional e comida deliciosa.”<br><b>- Aniversário -</b></div></div>
+</div></section>
+<section class="cta"><h2>Vamos tornar seu evento inesquecível?</h2><br><a href="https://wa.me/5598984107718?text=Olá%20Enéas!%20Quero%20orçamento%20para%20meu%20evento" class="btn-gold" style="background:#000;color:#D4AF37;padding:14px 30px;font-size:16px">FALAR NO WHATSAPP (98) 98410-7718</a></section>
+<footer><div><h4>ART BUFFET</h4>Enéas Filho - Santa Rita MA<br>@art_buffet_eventos_e_servicos</div><div><h4>CONTATO</h4>(98) 98410-7718<br>Santa Rita - MA</div><div><h4>© 2026 Art Buffet</h4></div></footer>
+<a href="https://wa.me/5598984107718" style="position:fixed;bottom:20px;right:20px;background:#25d366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;text-decoration:none">W</a>
+</body>
+</html>
